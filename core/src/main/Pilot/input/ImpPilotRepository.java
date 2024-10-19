@@ -1,7 +1,9 @@
-package usecase;
+package input;
 
 import exception.PilotException;
 import model.Pilots;
+import usecase.PersistancePilot;
+import usecase.PilotRepository;
 
 import java.time.LocalDate;
 import java.util.UUID;
